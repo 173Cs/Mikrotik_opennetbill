@@ -1,0 +1,20 @@
+{
+    "name": "hotspotbilling/phpnuxbill",
+    "type": "template",
+    "description": "PHPNuxBill a Hotspot Billing Software.",
+    "keywords": ["template","PHPMixBill","PHPnuxBill","Mikrotik","Hotspot","Billing"],
+    "homepage": "https://github.com/hotspotbilling/phpnuxbill",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ibnux",
+            "email": "me@ibnux.net",
+            "homepage": "https://ibnux.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "africastalking/africastalking": "^3.0",
+        "aws/aws-sdk-php": "^3.300"
+    }
+}

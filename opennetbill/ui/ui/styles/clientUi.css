@@ -1,0 +1,144 @@
+.nato{
+    color: white;
+    border-radius: rem;
+}
+.plan-box{
+    border: 2px solid rgb(43, 255, 0);
+    border-radius: 4rem;
+}
+.card {
+border-radius: 10px;
+/* padding: 20px; */
+font-family: 'Poppins', sans-serif;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plan-box {
+border: 1px solid #e0e0e0;
+border-radius: 8px;
+/* padding: 15px; */
+margin-bottom: 15px;
+}
+
+.plan-header {
+background-color: #424ef5;
+color: #fff;
+padding: 10px;
+border-radius: 8px 8px 0 0;
+}
+
+.plan-title {
+font-weight: bold;
+font-size: 18px;
+}
+
+.plan-details {
+padding: 15px;
+}
+
+.info-label {
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.info-value {
+font-size: 16px;
+}
+
+.expired-label {
+background-color: #ff5e5e;
+color: #fff;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+.btn-group {
+margin-top: 10px;
+}
+
+.label {
+padding: 5px 10px;
+border-radius: 5px;
+}
+.card-expired{
+height: 40%;
+}
+.buy {
+display: inline-block;
+padding: 10px 20px;
+background-color: #28a745;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+margin-top: 10px;
+}
+.big-card {
+width: 80%;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.expired-plan-box {
+width: 80%;
+border: 1px solid #e0e0e0;
+border-radius: 12px;
+margin-bottom: 20px;
+}
+
+.plan-header {
+background-color: #ff5e5e;
+color: #fff;
+padding: 15px;
+border-radius: 12px;
+}
+
+.plan-title {
+font-weight: bold;
+font-size: 24px;
+}
+
+.buy-button {
+display: inline-block;
+padding: 12px 24px;
+background-color: #0d0c22;
+color: #fff;
+text-decoration: none;
+border-radius: 8px;
+margin-top: 20px;
+}
+.grid-container {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+gap: 1rem;
+padding-top: 2.5rem;
+}
+
+.item {
+margin-bottom: 1rem;
+}
+
+.button {
+background-color: #424ef5;;
+color: white;
+padding: 8px 16px;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+border: none;
+}
+
+.details {
+margin-top: 8px;
+display: none;
+}
+
+.details.show {
+display: block;
+}
+
+@media (min-width: 768px) {
+.grid-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+}
